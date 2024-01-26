@@ -37,9 +37,3 @@ export const formatter = new Intl.NumberFormat('en-US', {
     maximumFractionDigits: 0,
 });
 
-const totalInterest =
-    yearData.valueEndOfYear -
-    yearData.annualInvestment * yearData.year -
-    initialInvestment;
-
-const totalAmountInvested = yearData.valueEndOfYear - totalInterest;
